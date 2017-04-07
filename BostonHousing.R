@@ -73,7 +73,7 @@ summary(model4)
 #The R squared values have increased to 0.84 . That means almost 84% of variance is explained by the regression model
 future <- predict.lm(model4,newdata=test)
 comparison <- data.frame(future,log(test$medv))
-comparison$Error <- abs(comparison[,2] - comparison[,1])/comparison[,2]
+comparison$Error <- (abs(comparison[,2] - comparison[,1])/comparison[,2])*100
 MAPE <- (mean(comparison$Error))
 MAPE
 View(comparison)
@@ -86,6 +86,6 @@ ggplot(model.dataframe,aes(x=.resid,y=.fitted)) + geom_point() + stat_smooth(se=
 
 #The residuals are normally distributed
 
-#Accuracy varies from 9.3% to 7%
+#Inaccuracy varies around 5%
 
 
