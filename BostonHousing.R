@@ -74,8 +74,8 @@ summary(model4)
 future <- predict.lm(model4,newdata=test)
 comparison <- data.frame(future,log(test$medv))
 comparison$Error <- abs(comparison[,2] - comparison[,1])/comparison[,2]
-TotalErr <- (sum(comparison$Error))
-TotalErr
+MAPE <- (mean(comparison$Error))
+MAPE
 View(comparison)
 #Check residuals
 model.dataframe <- fortify(model4)
