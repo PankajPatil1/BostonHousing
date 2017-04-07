@@ -1,9 +1,9 @@
-BostonHousing.R {.title .toc-ignore}
+BostonHousing.R
 ===============
 
-#### *pnkjp* {.author}
+#### *Author: Pankaj Patil*
 
-#### *Thu Apr 06 23:06:57 2017* {.date}
+#### *Thu Apr 06 23:06:57 2017* 
 
 ``` {.r}
 require(ggplot2)
