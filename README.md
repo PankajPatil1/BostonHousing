@@ -1,4 +1,4 @@
-# A Linear model approach to predict the Boston Housing prices 
+# A regression model approach to predict the Boston Housing prices 
 An analytical approach to predict the prices of Housing in Boston
 
 The data set has information about 14 variables including the median prices of housing in Boston area. The variables include criminal activity, industrial area, taxes etc.
