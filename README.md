@@ -2,7 +2,7 @@
 An analytical approach to predict the prices of Housing in Boston
 
 The data set has information about 14 variables including the median prices of housing in Boston area. The variables include criminal activity, industrial area, taxes etc.
-These variables are analysed and a linear model is developed to predict the prices of housing in Boston
+These variables are analysed and a regression model is developed to predict the prices of housing in Boston
 
 The details of model fitted are as below:
 
